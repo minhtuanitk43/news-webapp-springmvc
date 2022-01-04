@@ -1,0 +1,16 @@
+tr {
+width: 100%;
+display: inline-table;
+table-layout: fixed;
+}
+
+table{
+ height:400px;              // <-- Select the height of the table
+ display: block;
+}
+tbody{
+  overflow-y: scroll;      
+  height: 350px;            //  <-- Select the height of the body
+  width: 100%;
+  position: absolute;
+}
